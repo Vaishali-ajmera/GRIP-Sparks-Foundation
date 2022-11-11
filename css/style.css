@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+body{ 
+    min-height: 100vh; 
+    margin: 0; 
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+  
+  nav{ 
+    min-height:50px;
+    background:lightcyan; 
+  }
+  
+  footer{ 
+    min-height:50px; 
+    padding: 2rem 1rem;
+    background-color: #ff025e;
+}
+.navbar{
+    font-size: 1.2rem;
+    background-color: #ed0b70;
+
+
+}
+.carousel-heading{
+    overflow-y: hidden;
+    z-index:999;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+
+}
+.home .carousel-item{
+    position: relative;
+    min-height: 80vh !important;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    overflow-x: hidden;
+
+
+}
+.home .carousel-item:after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(42, 27, 61, 0.8);
+    background-color: rgba(0,0,0,0.6);
+    
+}
+.home .carousel-item h1{
+   overflow-y: hidden;
+}
+
+/* footer section start */
+
+  
+  footer p {
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.25rem;
+    margin-bottom: 0;
+  }
+
+  /* headings styling */
+
+   
+ 
+.heading{
+    background-image: repeating-radial-gradient(circle closest-corner at 100px 100px, #482673, #6113b0 10%, #7940c4 20%);
+    text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
+               3px 4px 4px rgba(179, 147, 211, 0.15),
+               4px 6px 4px rgba(179, 147, 211, 0.2),
+               5px 8px 4px rgba(179, 147, 211, 0.25);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    overflow-y:hidden;
+    font-family: 'Alegreya', serif;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.heading1{
+    overflow-y:hidden;
+    font-family: 'Alegreya', serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #d4c1ed;
+
+}
+
+table thead{
+    background-color: #023b59;
+    color: white;
+    
+}
+table tbody{
+    background-color:  rgba(179, 147, 211);
+    font-weight: bold;
+   
+    
+
+}
+
+.sbutton{
+    background-color: white;
+    color: #ed0b70;
+    font-weight: bold;
+}
+
+.sbutton:hover{
+    background-color: #ed0b70;
+    color: white;
+
+}
+
+.bk-color{
+    background:#f6ebf4;
+}
+.pink-text{
+   color: #ed0b70;
+}
